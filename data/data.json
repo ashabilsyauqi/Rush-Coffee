@@ -1,0 +1,392 @@
+{
+  "settings": {
+    "businessName": "Rush Coffee",
+    "outlet": "Booth Kontainer #1",
+    "targetCupsPerMonth": 3000,
+    "targetFoodCostPct": 35,
+    "onlineCommissionPct": 20,
+    "roundTo": 500,
+    "includeOverhead": true,
+    "targetMarginPct": 60
+  },
+  "ingredients": [
+    {
+      "id": "i1",
+      "name": "Nescafe classic ",
+      "category": "Kopi",
+      "purchaseQty": 60,
+      "unit": "pcs",
+      "price": 60000,
+      "supplier": "lotte mart",
+      "buyQty": 1,
+      "packName": "pcs",
+      "wastePct": 0
+    },
+    {
+      "id": "i2",
+      "name": "Susu UHT full cream",
+      "category": "Susu",
+      "purchaseQty": 1000,
+      "unit": "ml",
+      "price": 19000,
+      "supplier": "lotte mart",
+      "buyQty": 1,
+      "packName": "pcs",
+      "wastePct": 0
+    },
+    {
+      "id": "i3",
+      "name": "Gula aren cair",
+      "category": "Pemanis",
+      "purchaseQty": 1000,
+      "unit": "gr",
+      "price": 32900,
+      "supplier": "TOKPED",
+      "buyQty": 1,
+      "packName": "pcs",
+      "wastePct": 0
+    },
+    {
+      "id": "i4",
+      "name": "Susu kental manis",
+      "category": "Pemanis",
+      "purchaseQty": 1000,
+      "unit": "ml",
+      "price": 42000,
+      "supplier": "TOKPED",
+      "buyQty": 1,
+      "packName": "pack",
+      "wastePct": 0
+    },
+    {
+      "id": "i5",
+      "name": "Es batu kristal",
+      "category": "Lainnya",
+      "purchaseQty": 20000,
+      "unit": "gr",
+      "price": 25000,
+      "supplier": "Vila asri",
+      "buyQty": 1,
+      "packName": "pcs",
+      "wastePct": 10
+    },
+    {
+      "id": "i6",
+      "name": "Air mineral galon",
+      "category": "Lainnya",
+      "purchaseQty": 19000,
+      "unit": "ml",
+      "price": 7500,
+      "supplier": "Wareng",
+      "buyQty": 1,
+      "packName": "galon",
+      "wastePct": 0
+    },
+    {
+      "id": "i7",
+      "name": "Cup PET 14 oz",
+      "category": "Kemasan",
+      "purchaseQty": 500,
+      "unit": "pcs",
+      "price": 375000,
+      "supplier": "TOKPED",
+      "buyQty": 1,
+      "packName": "dus",
+      "wastePct": 0
+    },
+    {
+      "id": "i8",
+      "name": "Tutup cup ( selaer )",
+      "category": "Kemasan",
+      "purchaseQty": 1000,
+      "unit": "pcs",
+      "price": 31000,
+      "supplier": "TOKPED",
+      "buyQty": 1,
+      "packName": "pcs",
+      "wastePct": 0
+    },
+    {
+      "id": "i9",
+      "name": "Sedotan",
+      "category": "Kemasan",
+      "purchaseQty": 250,
+      "unit": "pcs",
+      "price": 12000,
+      "supplier": "TOKPED",
+      "buyQty": 1,
+      "packName": "pcs",
+      "wastePct": 0
+    },
+    {
+      "id": "imwq38ybl9a7t",
+      "name": "Creamer bubuk ",
+      "category": "Susu",
+      "buyQty": 1,
+      "packName": "pcs",
+      "purchaseQty": 1000,
+      "unit": "gr",
+      "price": 48000,
+      "wastePct": 0,
+      "supplier": "TOKPED"
+    },
+    {
+      "id": "imwq3vt8bllph",
+      "name": "bubuk coklat",
+      "category": "Pemanis",
+      "buyQty": 1,
+      "packName": "pcs",
+      "purchaseQty": 1000,
+      "unit": "gr",
+      "price": 40000,
+      "wastePct": 0,
+      "supplier": "TOKPED"
+    },
+    {
+      "id": "imwrdnkcfywor",
+      "name": "simple syrup",
+      "category": "Sirup",
+      "buyQty": 1,
+      "packName": "pcs",
+      "purchaseQty": 1000,
+      "unit": "ml",
+      "price": 42000,
+      "wastePct": 0,
+      "supplier": "TOKPED"
+    },
+    {
+      "id": "imwre43fea6sn",
+      "name": "nexcaffe classic 200gram",
+      "category": "Lainnya",
+      "buyQty": 1,
+      "packName": "botol",
+      "purchaseQty": 200,
+      "unit": "gr",
+      "price": 125000,
+      "wastePct": 0,
+      "supplier": "tokped"
+    }
+  ],
+  "menus": [
+    {
+      "id": "mmwq3fer5vgak",
+      "name": "RUSH KOPI SUSU",
+      "size": "14 oz",
+      "category": "SUSU",
+      "price": 10000,
+      "mixPct": 0,
+      "items": [
+        {
+          "ingredientId": "i1",
+          "qty": 1
+        },
+        {
+          "ingredientId": "i2",
+          "qty": 120
+        },
+        {
+          "ingredientId": "i3",
+          "qty": 15
+        },
+        {
+          "ingredientId": "imwq38ybl9a7t",
+          "qty": 15
+        },
+        {
+          "ingredientId": "i7",
+          "qty": 1
+        },
+        {
+          "ingredientId": "i5",
+          "qty": 150
+        },
+        {
+          "ingredientId": "i9",
+          "qty": 1
+        }
+      ],
+      "onlinePrice": null,
+      "marginPct": 40
+    },
+    {
+      "id": "mmwq3og9qh07g",
+      "name": "RUSH AMERICANO",
+      "size": "14 oz",
+      "category": "NON SUSU",
+      "price": 10000,
+      "mixPct": 0,
+      "items": [
+        {
+          "ingredientId": "i1",
+          "qty": 1
+        },
+        {
+          "ingredientId": "i6",
+          "qty": 140
+        },
+        {
+          "ingredientId": "i7",
+          "qty": 1
+        },
+        {
+          "ingredientId": "i9",
+          "qty": 1
+        },
+        {
+          "ingredientId": "i5",
+          "qty": 130
+        }
+      ],
+      "onlinePrice": null,
+      "marginPct": 60
+    },
+    {
+      "id": "mmwq3t0wv7gbp",
+      "name": "RSH MOCACHINO",
+      "size": "16 oz",
+      "category": "",
+      "price": 12000,
+      "mixPct": 0,
+      "items": [
+        {
+          "ingredientId": "i1",
+          "qty": 1
+        },
+        {
+          "ingredientId": "i2",
+          "qty": 80
+        },
+        {
+          "ingredientId": "i6",
+          "qty": 60
+        },
+        {
+          "ingredientId": "i1",
+          "qty": 0
+        },
+        {
+          "ingredientId": "imwq3vt8bllph",
+          "qty": 20
+        },
+        {
+          "ingredientId": "i7",
+          "qty": 1
+        },
+        {
+          "ingredientId": "i9",
+          "qty": 1
+        }
+      ],
+      "onlinePrice": null,
+      "marginPct": 50
+    },
+    {
+      "id": "mmwrdjmw6sszl",
+      "name": "RUSH CAPUCHINO",
+      "size": "14 oz",
+      "category": "",
+      "price": 11500,
+      "onlinePrice": null,
+      "mixPct": 0,
+      "items": [
+        {
+          "ingredientId": "i1",
+          "qty": 1
+        },
+        {
+          "ingredientId": "i2",
+          "qty": 100
+        },
+        {
+          "ingredientId": "i6",
+          "qty": 50
+        },
+        {
+          "ingredientId": "imwrdnkcfywor",
+          "qty": 10
+        },
+        {
+          "ingredientId": "i5",
+          "qty": 120
+        },
+        {
+          "ingredientId": "i7",
+          "qty": 1
+        },
+        {
+          "ingredientId": "i9",
+          "qty": 1
+        }
+      ],
+      "marginPct": 45
+    }
+  ],
+  "overheads": [
+    {
+      "id": "omwq2nocjgijh",
+      "name": "Karyawan",
+      "amount": 3500000
+    },
+    {
+      "id": "omwq2o7bd6rsw",
+      "name": "Listrik",
+      "amount": 300000
+    },
+    {
+      "id": "omwq2of8ctwgy",
+      "name": "sewa lahan ",
+      "amount": 1500000
+    }
+  ],
+  "rev": 307,
+  "updatedAt": "2026-11-23T08:46:29.268Z",
+  "sales": {
+    "daysOpen": 30,
+    "taxPct": 0,
+    "items": {
+      "mmwq3fer5vgak": {
+        "offline": 50,
+        "online": 5
+      },
+      "mmwq3og9qh07g": {
+        "offline": 25,
+        "online": 5
+      },
+      "mmwq3t0wv7gbp": {
+        "offline": 30,
+        "online": 5
+      },
+      "mmwrdjmw6sszl": {
+        "offline": 0,
+        "online": 0
+      }
+    }
+  },
+  "investments": [
+    {
+      "id": "v1",
+      "name": "Booth kontainer",
+      "amount": 25000000
+    },
+    {
+      "id": "v2",
+      "name": "Peralatan (blender, chiller, dispenser)",
+      "amount": 12000000
+    },
+    {
+      "id": "v3",
+      "name": "Perlengkapan bar & alat kecil",
+      "amount": 3000000
+    },
+    {
+      "id": "v4",
+      "name": "Branding, signage & seragam",
+      "amount": 3000000
+    },
+    {
+      "id": "v5",
+      "name": "Modal kerja awal (stok pertama)",
+      "amount": 4000000
+    }
+  ]
+}

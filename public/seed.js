@@ -1,0 +1,290 @@
+// Data contoh awal (dipakai saat mode lokal)
+window.RUSH_SEED = {
+ "settings": {
+  "businessName": "Rush Coffee",
+  "outlet": "Booth Kontainer #1",
+  "targetCupsPerMonth": 3000,
+  "targetFoodCostPct": 35,
+  "onlineCommissionPct": 20,
+  "roundTo": 500,
+  "includeOverhead": true
+ },
+ "ingredients": [
+  {
+   "id": "i1",
+   "name": "Biji kopi espresso blend",
+   "category": "Kopi",
+   "supplier": "",
+   "buyQty": 1,
+   "packName": "pack",
+   "purchaseQty": 1000,
+   "unit": "gr",
+   "price": 200000,
+   "wastePct": 0
+  },
+  {
+   "id": "i2",
+   "name": "Susu UHT full cream",
+   "category": "Susu",
+   "supplier": "",
+   "buyQty": 1,
+   "packName": "kotak",
+   "purchaseQty": 1,
+   "unit": "liter",
+   "price": 19000,
+   "wastePct": 0
+  },
+  {
+   "id": "i3",
+   "name": "Gula aren cair",
+   "category": "Pemanis",
+   "supplier": "",
+   "buyQty": 1,
+   "packName": "botol",
+   "purchaseQty": 1,
+   "unit": "liter",
+   "price": 40000,
+   "wastePct": 0
+  },
+  {
+   "id": "i4",
+   "name": "Susu kental manis",
+   "category": "Pemanis",
+   "supplier": "",
+   "buyQty": 1,
+   "packName": "kaleng",
+   "purchaseQty": 490,
+   "unit": "gr",
+   "price": 13000,
+   "wastePct": 0
+  },
+  {
+   "id": "i5",
+   "name": "Es batu kristal",
+   "category": "Lainnya",
+   "supplier": "",
+   "buyQty": 1,
+   "packName": "pack",
+   "purchaseQty": 5,
+   "unit": "kg",
+   "price": 8000,
+   "wastePct": 10
+  },
+  {
+   "id": "i6",
+   "name": "Air mineral galon",
+   "category": "Lainnya",
+   "supplier": "",
+   "buyQty": 1,
+   "packName": "galon",
+   "purchaseQty": 19,
+   "unit": "liter",
+   "price": 20000,
+   "wastePct": 0
+  },
+  {
+   "id": "i7",
+   "name": "Cup PET 16 oz",
+   "category": "Kemasan",
+   "supplier": "",
+   "buyQty": 1,
+   "packName": "pack",
+   "purchaseQty": 50,
+   "unit": "pcs",
+   "price": 45000,
+   "wastePct": 0
+  },
+  {
+   "id": "i8",
+   "name": "Tutup cup",
+   "category": "Kemasan",
+   "supplier": "",
+   "buyQty": 1,
+   "packName": "pack",
+   "purchaseQty": 50,
+   "unit": "pcs",
+   "price": 15000,
+   "wastePct": 0
+  },
+  {
+   "id": "i9",
+   "name": "Sedotan",
+   "category": "Kemasan",
+   "supplier": "",
+   "buyQty": 1,
+   "packName": "pack",
+   "purchaseQty": 100,
+   "unit": "pcs",
+   "price": 12000,
+   "wastePct": 0
+  },
+  {
+   "id": "i10",
+   "name": "Stiker logo cup",
+   "category": "Kemasan",
+   "supplier": "",
+   "buyQty": 1,
+   "packName": "pack",
+   "purchaseQty": 100,
+   "unit": "pcs",
+   "price": 25000,
+   "wastePct": 0
+  }
+ ],
+ "menus": [
+  {
+   "id": "m1",
+   "name": "Kopi Susu Aren",
+   "size": "16 oz",
+   "category": "Kopi Susu",
+   "price": 18000,
+   "mixPct": 50,
+   "items": [
+    {
+     "ingredientId": "i1",
+     "qty": 18
+    },
+    {
+     "ingredientId": "i2",
+     "qty": 150
+    },
+    {
+     "ingredientId": "i3",
+     "qty": 25
+    },
+    {
+     "ingredientId": "i5",
+     "qty": 150
+    },
+    {
+     "ingredientId": "i7",
+     "qty": 1
+    },
+    {
+     "ingredientId": "i8",
+     "qty": 1
+    },
+    {
+     "ingredientId": "i9",
+     "qty": 1
+    },
+    {
+     "ingredientId": "i10",
+     "qty": 1
+    }
+   ]
+  },
+  {
+   "id": "m2",
+   "name": "Kopi Susu Original",
+   "size": "16 oz",
+   "category": "Kopi Susu",
+   "price": 16000,
+   "mixPct": 20,
+   "items": [
+    {
+     "ingredientId": "i1",
+     "qty": 18
+    },
+    {
+     "ingredientId": "i2",
+     "qty": 120
+    },
+    {
+     "ingredientId": "i4",
+     "qty": 25
+    },
+    {
+     "ingredientId": "i5",
+     "qty": 150
+    },
+    {
+     "ingredientId": "i7",
+     "qty": 1
+    },
+    {
+     "ingredientId": "i8",
+     "qty": 1
+    },
+    {
+     "ingredientId": "i9",
+     "qty": 1
+    },
+    {
+     "ingredientId": "i10",
+     "qty": 1
+    }
+   ]
+  },
+  {
+   "id": "m3",
+   "name": "Americano Ice",
+   "size": "16 oz",
+   "category": "Black",
+   "price": 15000,
+   "mixPct": 30,
+   "items": [
+    {
+     "ingredientId": "i1",
+     "qty": 18
+    },
+    {
+     "ingredientId": "i6",
+     "qty": 200
+    },
+    {
+     "ingredientId": "i5",
+     "qty": 180
+    },
+    {
+     "ingredientId": "i7",
+     "qty": 1
+    },
+    {
+     "ingredientId": "i8",
+     "qty": 1
+    },
+    {
+     "ingredientId": "i9",
+     "qty": 1
+    },
+    {
+     "ingredientId": "i10",
+     "qty": 1
+    }
+   ]
+  }
+ ],
+ "overheads": [
+  {
+   "id": "o1",
+   "name": "Sewa lahan booth",
+   "amount": 2500000
+  },
+  {
+   "id": "o2",
+   "name": "Gaji barista (2 orang)",
+   "amount": 6000000
+  },
+  {
+   "id": "o3",
+   "name": "Listrik & air",
+   "amount": 600000
+  },
+  {
+   "id": "o4",
+   "name": "Internet & POS",
+   "amount": 350000
+  },
+  {
+   "id": "o5",
+   "name": "Penyusutan mesin & alat",
+   "amount": 450000
+  },
+  {
+   "id": "o6",
+   "name": "Marketing",
+   "amount": 500000
+  }
+ ]
+};

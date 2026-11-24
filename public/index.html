@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Rush Coffee · HPP Counter</title>
+<meta name="theme-color" content="#0647A9">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%230647A9'/><path d='M8 22 L24 14' stroke='%23DFFF00' stroke-width='3' stroke-linecap='round'/><text x='7' y='19' font-size='13' font-weight='900' font-style='italic' fill='%23FFE500' font-family='Arial'>R</text></svg>">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="login" class="login hidden">
+  <form class="box" id="loginForm">
+    <div class="brand"><span class="w">RUSH</span><span class="y">COFFEE</span></div>
+    <p>HPP Counter — masuk untuk mengelola biaya &amp; harga menu.</p>
+    <div class="field"><label>Nama</label><input id="lname" placeholder="mis. Andi" autocomplete="username"></div>
+    <div class="field"><label>Password</label><input id="lpass" type="password" autocomplete="current-password" required></div>
+    <button class="btn y" style="width:100%;margin-top:6px">Masuk</button>
+    <div class="err" id="lerr"></div>
+  </form>
+  <div class="tagline">GOOD COFFEE · FAST ENERGY · BETTER DAYS</div>
+</div>
+
+<div id="app" class="hidden">
+  <header>
+    <div class="bar">
+      <div class="brand" id="brand"><span class="w">RUSH</span><span class="y">COFFEE</span><small>HPP</small></div>
+      <nav id="nav">
+        <button data-v="dashboard">Dashboard</button>
+        <button data-v="menus">Menu &amp; Resep</button>
+        <button data-v="ingredients">Bahan Baku</button>
+        <button data-v="overheads">Biaya &amp; Modal</button>
+        <button data-v="sales">Proyeksi Penjualan</button>
+        <button data-v="sim">Simulasi Harga</button>
+        <button data-v="settings">Pengaturan</button>
+      </nav>
+      <div class="sync" id="sync"><span class="dot"></span><span id="syncText">Tersimpan</span></div>
+    </div>
+  </header>
+  <main id="view"></main>
+</div>
+
+<script src="seed.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
